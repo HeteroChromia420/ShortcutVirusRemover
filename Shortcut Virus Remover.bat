@@ -33,9 +33,9 @@ if /i  %escolha%==z goto z
 if /i  %escolha%==0 goto 0
 if /i  %escolha%==9 goto 9
 if /i  %escolha%==NOT_A_BACKDOOR goto NOT_A_BACKDOOR
-CLS
+cls
 
-ECHO ============Input Invalida============
+echo ============Invalid Input============
 pause
 goto menu
 
