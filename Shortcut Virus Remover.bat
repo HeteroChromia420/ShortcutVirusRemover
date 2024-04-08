@@ -2,7 +2,7 @@
 goto menu
 :menu
 cls
-echo Select Drive Letter: (Type 0 Tp Clean this computer or 9 to exit)
+echo Select Drive Letter: (Type 0 To Clean this computer or 9 to exit)
 set /p escolha=
 if /i  %escolha%==a goto a
 if /i  %escolha%==b goto b
